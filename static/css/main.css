@@ -1,0 +1,56 @@
+*{
+	border: 1px solid green;
+}
+
+html, body, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f4f4f4;
+}
+
+
+h2 {
+	font-weight: 300;
+	letter-spacing: -1.2px;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.section-content{
+	color: #3a3a3a;
+	float: left;
+	width: 340px;
+}
+
+.section-device{
+	float: right;
+	position: relative;
+	top: 65px;
+}
+
+.section-device img {
+	width: 600px;
+}
